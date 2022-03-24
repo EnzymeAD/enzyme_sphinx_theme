@@ -429,39 +429,10 @@
             <a href="{{ theme_variables.external_urls['tutorials'] }}">Tutorials</a>
           </li>
 
-          <li class="resources-mobile-menu-title" {%- if theme_enzyme_project == 'docs' %} class="active"{%- endif %}>
-            Docs
+
+          <li {%- if theme_enzyme_project == 'docs' %} class="active" {%- endif %}>
+            <a href="{{ theme_variables.external_urls['docs'] }}">Docs</a>
           </li>
-
-          <ul class="resources-mobile-menu-items">
-            <li>
-              <a href="{{ theme_variables.external_urls['docs'] }}">PyTorch</a>
-            </li>
-
-            <li>
-              <a href="{{ theme_variables.external_urls['audio'] }}">torchaudio</a>
-            </li>
-
-            <li>
-              <a href="{{ theme_variables.external_urls['text'] }}">torchtext</a>
-            </li>
-
-            <li>
-              <a href="{{ theme_variables.external_urls['vision'] }}">torchvision</a>
-            </li>
-
-            <li>
-              <a href="{{ theme_variables.external_urls['elastic'] }}">TorchElastic</a>
-            </li>
-
-            <li>
-              <a href="{{ theme_variables.external_urls['serve'] }}">TorchServe</a>
-            </li>
-
-            <li>
-              <a href="{{ theme_variables.external_urls['xla'] }}">PyTorch on XLA Devices</a>
-            </li>
-          </ul>
 
           <li class="resources-mobile-menu-title">
             Resources
