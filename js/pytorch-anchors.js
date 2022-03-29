@@ -1,9 +1,9 @@
-window.pytorchAnchors = {
+window.enzymeAnchors = {
   bind: function() {
     // Replace Sphinx-generated anchors with anchorjs ones
     $(".headerlink").text("");
 
-    window.anchors.add(".pytorch-article .headerlink");
+    window.anchors.add(".enzyme-article .headerlink");
 
     $(".anchorjs-link").each(function() {
       var $headerLink = $(this).closest(".headerlink");
